@@ -1,0 +1,114 @@
+/*Big Tablets*/
+@media only screen and (max-width:1200px){
+    .hero-text-box {   width:100%;
+        padding:0 2%;}
+    .row{
+    margin:auto 2%;
+}
+}
+
+/*Small Tablet*/
+@media only screen and (max-width:1023px){
+    body{font-size: 17px}
+    section{padding:60px 0}
+    .long-copy{
+    width:80%;
+    margin-left:10%;
+}
+    .box{
+        font-size:90%
+    }
+    .step-box{
+    margin-top:10px;
+}
+   .steps{
+    margin-bottom:40px
+}
+    .steps:last-of-type{
+    margin-bottom:60px;
+}
+    .step-box:last-child{
+    margin-top:10px;
+}
+    .appscreen{
+    width:50%;
+}
+    .small{
+        width:16px;
+        margin-right:1px
+    }
+    .plan-box {
+    width:100%;
+    margin-left: 0%;
+}
+    .plan-price{
+    font-size: 250%;
+    margin-bottom: 20px;
+    font-weight: 300;
+    
+}
+    .footer-nav{
+        font-size:90%
+    
+}
+}
+
+/*Small Phones*/
+@media only screen and (max-width:767px){
+     body{font-size: 16px}
+    section{padding:30px 0}
+      .row,hero-text-box{
+    margin:auto 2%;
+}
+    .col{
+        width:100%;
+        padding:2px;
+        margin:0 0 4% 0; 
+    }
+    .main-nav{
+        display: none
+    }
+    .long-copy{
+    width:100%;
+    margin-left:0%;
+}
+    h1{
+        font-size:180%;
+    }
+    h2{
+        font-size:150%;
+    }
+     .appscreen{
+        width:50%;
+}
+    .steps div{
+   
+    height:45px;
+    width:45px;
+   
+   
+    font-size:130%;
+    margin-right:20px
+}
+       .step-box{
+    margin-top:0;
+}
+   .steps{
+    margin-bottom:20px
+}
+    .steps:last-of-type{
+    margin-bottom:20px;
+}
+    .step-box:last-child{
+    margin-top:40px;
+}
+    .step-box:first-child{
+    text-align:center;
+     padding-right:3%
+}
+}
+
+/*Small*/
+@media only screen and (max-width:480px){
+
+}
